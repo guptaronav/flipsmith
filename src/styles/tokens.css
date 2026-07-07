@@ -1,0 +1,27 @@
+:root {
+  /* animator's light table: cool desk, col-erase pencil accents */
+  --color-desk: oklch(94% 0.012 240);
+  --color-paper: oklch(97.8% 0.008 95);
+  --color-ink: oklch(24% 0.015 275);
+  --color-ink-soft: oklch(46% 0.02 265);
+  --color-line: oklch(84% 0.015 250);
+  --color-cyan: oklch(78% 0.11 215);
+  --color-red: oklch(60% 0.19 25);
+  --color-red-soft: oklch(93% 0.04 25);
+
+  --font-display: 'Archivo', system-ui, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, monospace;
+
+  --text-base: clamp(0.92rem, 0.88rem + 0.2vw, 1rem);
+  --text-wordmark: clamp(1.5rem, 1.1rem + 1.6vw, 2.4rem);
+
+  --space-gutter: clamp(1rem, 0.6rem + 2vw, 2.25rem);
+
+  --radius-sheet: 12px;
+  --radius-control: 8px;
+
+  --duration-fast: 130ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --shadow-sheet: 0 1px 2px oklch(24% 0.015 275 / 0.08), 0 14px 34px -20px oklch(24% 0.015 275 / 0.45);
+}
