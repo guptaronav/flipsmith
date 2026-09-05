@@ -64,7 +64,7 @@ npm run build   # typecheck + production build
 
 ## Credits
 
-Built with [Claude Code](https://claude.com/claude-code) (Claude Sonnet 5): wrote the CSS, some of the TypeScript, and handled all commits/pushes and the GitHub Pages deployment for this repo.
+Built with [Claude Code](https://claude.com/claude-code) (Claude Sonnet 5): wrote some of the CSS, some of the TypeScript, and handled all commits/pushes and the GitHub Pages deployment for this repo.
 
 ## License
 
