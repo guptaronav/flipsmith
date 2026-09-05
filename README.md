@@ -1,6 +1,8 @@
 # flipsmith 📖
 
-[![CI](https://github.com/dmdandronav/flipsmith/actions/workflows/ci.yml/badge.svg)](https://github.com/dmdandronav/flipsmith/actions/workflows/ci.yml)
+[![CI](https://github.com/guptaronav/flipsmith/actions/workflows/ci.yml/badge.svg)](https://github.com/guptaronav/flipsmith/actions/workflows/ci.yml)
+
+**Live: https://guptaronav.github.io/flipsmith/**
 
 **Draw a flipbook in the browser — download a real animated GIF.
 LZW and the GIF89a container, written from scratch. No GIF library at runtime.**
@@ -59,6 +61,10 @@ npm test        # vitest — 21 tests
 npm run lint    # eslint
 npm run build   # typecheck + production build
 ```
+
+## Credits
+
+Built with [Claude Code](https://claude.com/claude-code) (Claude Sonnet 5): wrote the CSS, some of the TypeScript, and handled all commits/pushes and the GitHub Pages deployment for this repo.
 
 ## License
 

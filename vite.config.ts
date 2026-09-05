@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: '/flipsmith/',
   plugins: [react()],
   test: {
     include: ['src/**/*.test.ts'],

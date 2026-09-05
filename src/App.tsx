@@ -230,7 +230,7 @@ export default function App() {
 
       <footer className="colophon">
         <span>MIT · no network · no GIF library at runtime</span>
-        <a href="https://github.com/dmdandronav/flipsmith">github.com/dmdandronav/flipsmith</a>
+        <a href="https://github.com/guptaronav/flipsmith">github.com/guptaronav/flipsmith</a>
       </footer>
     </div>
   );
