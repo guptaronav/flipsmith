@@ -302,24 +302,6 @@ input[type='range'] {
   color: var(--color-ink-soft);
 }
 
-/* ---- colophon ---- */
-
-.colophon {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
-  border-top: 1px solid var(--color-line);
-  padding-top: 1rem;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  color: var(--color-ink-soft);
-}
-
-.colophon a {
-  color: inherit;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;

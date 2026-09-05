@@ -30,7 +30,7 @@ export default function App() {
 
   const delayCs = Math.max(2, Math.round(100 / fps));
 
-  // the live preview IS the encoded GIF — the browser's own decoder plays it
+  // the live preview IS the encoded GIF, the browser's own decoder plays it
   useEffect(() => {
     const timer = setTimeout(() => {
       const gif = encodeGif({ width: WIDTH, height: HEIGHT, frames, palette: PALETTE, delayCs });
@@ -98,7 +98,7 @@ export default function App() {
             flip<em>smith</em>
           </h1>
           <p className="tagline">
-            draw a flipbook — the GIF you download is compressed by LZW written from
+            draw a flipbook, the GIF you download is compressed by LZW written from
             scratch, and the preview is those exact bytes.
           </p>
         </div>
@@ -198,7 +198,7 @@ export default function App() {
           </div>
 
           <label className="tool-group" htmlFor="fps">
-            <span className="tool-label">speed — {fps} fps</span>
+            <span className="tool-label">speed: {fps} fps</span>
             <input
               id="fps"
               type="range"
@@ -222,16 +222,11 @@ export default function App() {
               <p className="preview-empty">draw on a page and the encoded GIF loops here</p>
             )}
             <p className="preview-note">
-              this preview is not a simulation — it is the .gif file, byte for byte
+              this preview is not a simulation, it is the .gif file, byte for byte
             </p>
           </div>
         </aside>
       </main>
-
-      <footer className="colophon">
-        <span>MIT · no network · no GIF library at runtime</span>
-        <a href="https://github.com/guptaronav/flipsmith">github.com/guptaronav/flipsmith</a>
-      </footer>
     </div>
   );
 }
