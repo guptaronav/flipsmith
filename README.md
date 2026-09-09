@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/guptaronav/flipsmith/actions/workflows/ci.yml/badge.svg)](https://github.com/guptaronav/flipsmith/actions/workflows/ci.yml)
 
+<img width="1311" height="991" alt="Screenshot 2026-09-08 at 10 03 10 PM" src="https://github.com/user-attachments/assets/92fd49e7-42d1-492d-9e76-7af170278e1b" />
+
 **Live: https://guptaronav.github.io/flipsmith/**
 
 **Draw a flipbook in the browser — download a real animated GIF.
